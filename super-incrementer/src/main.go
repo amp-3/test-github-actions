@@ -6,5 +6,5 @@ func main() {
 }
 
 func Increment(number int) int {
-	return number + 1
+	return number + 1111
 }
