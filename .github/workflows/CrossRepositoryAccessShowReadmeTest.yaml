@@ -4,7 +4,7 @@
 name: Cross repo
 on: push
 env:
-  TARGET_REPO: another-repo # GitHub Appsのインストール時に設定したリポジトリ
+  TARGET_REPO: cross-repo-access-target-test # GitHub Appsのインストール時に設定したリポジトリ
 jobs:
   checkout:
     runs-on: ubuntu-latest
